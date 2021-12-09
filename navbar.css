@@ -1,0 +1,5 @@
+body {
+  background-image: linear-gradient(red, blue);
+  background-size: width=auto hieght=30px;
+  background-repeat: no-repeat;
+}
