@@ -6,7 +6,7 @@ body {
   padding: 0;
   background-image: url("waves-r.svg");
   font-size: 18px;
-  font-family: 'nunito', sans-serif;
+  font-family: 'Nunito', sans-serif;
 
 }
 
@@ -24,7 +24,7 @@ body {
 
 #hero {
   font-size: 60px;
-  font-family: 'nunito', sans-serif;
+  font-family: 'Baskerville', serif;
   margin-top: 30px;
   color: #ffffff;
   margin-bottom: 10px;
@@ -32,7 +32,7 @@ body {
 
 @media (max-width: 1070px) {
   .flex-container-home-hero {
-    background-image: linear-gradient(to right, #5baaff, #d0acff);
+    background: #CC7F7F;
     border-bottom-right-radius: 40px;
     border-bottom-left-radius: 40px;
     justify-content: center;
@@ -62,12 +62,12 @@ body {
 
 #uiux {
   font-size: 32px;
-  font-family: 'nunito', sans-serif;
+  font-family: 'Baskerville', serif;
   color: #ffffff;
   text-align: center;
-  font-weight: 700;
   margin-top: -70px;
-  margin-left: 60px;
+  margin-left: 30px;
+  font-weight: lighter;
 }
 
 #hero-image {
@@ -82,11 +82,14 @@ body {
 
 
 .rubrik {
-  font-size: 30px;
-  font-family: 'Nunito', sans-serif;
+  font-size: 40px;
+  font-family: 'Baskerville', serif;
   margin-top: -40px;
   margin-bottom: 30px;
   padding-top: 70px;
+  font-weight: normal;
+  text-align: left;
+
 
 }
 
@@ -104,9 +107,17 @@ main {
   width: auto;
 }
 
-#about {
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
   text-align: center;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  font-size: 22px;
+  color: #252525;
+  margin-bottom: 2%;
 }
+
 
 
 .about {
@@ -119,6 +130,8 @@ main {
 /*EDUCATION&EXPERIENCE*/
 
 /*.eeswrapper {
+  display: flex;
+  flex-wrap: wrap;
   background-color: #ced5f5;
   border-radius: 40px;
   border: #ffcb69;
@@ -185,7 +198,9 @@ main {
 }
 
 #experience-text {
+  padding-top: 70px;
   margin-bottom: 20px;
+  text-align: left;
 }
 
 #education {
@@ -212,10 +227,7 @@ main {
   font-size: 26px;
 }
 
-#experience-text {
-  text-align: center;
-  color: #252525;
-}
+
 
 #skills {
   text-align: left;
@@ -233,17 +245,17 @@ main {
   flex: 1;
   flex-wrap: wrap;
   align-content: center;
-  /*justify-content: center;*/
-  border-radius: 20px;
+  justify-content: center;
   width: 25%;
+  height: 150px;
   margin: 10px;
-  text-align: center;
   font-size: 18px;
   font-family: 'Nunito', sans-serif;
-  font-weight: 400;
-  border: #3b3b3b 3px solid;
-  max-height: 200px;
-
+  font-weight: bold;
+  background-color: #ffffff;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 1px 1px 3px Dimgrey;;
 }
 
 .skill-level {
@@ -272,7 +284,6 @@ main {
 
 .projects-wrapper1 {
   margin: 10px;
-  background-color: #ffffff;
   border-radius: 40px;
   padding: 30px;
 }
@@ -342,8 +353,8 @@ main {
 .projects-wrapper {
   margin: 10px;
   border-radius: 40px;
-  border: #ffcb69;
-  padding: 30px;
+  padding: 15px 30px 15px 30px;
+  /*background-color: #3b3b3b;*/
 }
 
 .flex-item-project {
@@ -354,6 +365,11 @@ main {
   height: 200px;
   margin: 30px auto;
   box-shadow: 0px 2px 5px Dimgrey;
+}
+
+.project-cell {
+  margin-left: -15px;
+
 }
 
 @media screen and (min-width: 940px) {
@@ -491,4 +507,45 @@ label {
   margin-bottom: -10px;
   margin-top: -300px;
   align-self: center;
+}
+
+/*@media (max-width: 1060px) {
+  .skill {
+    flex:none;
+  }
+
+}*/
+
+@media (max-width: 782px) {
+  .row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+    justify-content: space-evenly;
+  }
+
+  .skill {
+    display: flex;
+    flex-direction: column;
+    /*flex-basis: 100%;*/
+    align-content: center;
+    justify-content: center;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    background-color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 1px 1px 3px Dimgrey;
+    flex: none;
+  }
+
+
+
+
 }

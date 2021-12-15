@@ -15,9 +15,7 @@ body {
 
 
 main {
-    max-width: 1000px;
     margin: 20px auto;
-    padding: 30px;
     background: transparent;
 
 }
@@ -29,7 +27,7 @@ main {
     flex-wrap: wrap;
 }
 
-.logo-container {
+.logo-text-container {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -66,7 +64,7 @@ main {
 .screenshots {
     display: flex;
     flex-direction: column;
-    position: relative;
+    position: absolute;
     flex-wrap: wrap;
     right: 2vw;
     align-content: flex-end;
@@ -96,13 +94,13 @@ main {
     margin: 10px;
 }
 
-#brochure{
+/*#brochure{
     color: white;
     font-family: Avenir, sans-serif;
     font-size: 30px;
     font-weight: normal;
     margin-top: 10vw;
-}
+}*/
 
 .brochure {
     display: flex;
@@ -113,11 +111,129 @@ main {
     height: auto;
 }
 
+#3dbrochyr {
+    max-width: 20%;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+}
+
+#brochyr {
+    max-width: 60%;
+    margin-bottom: 10vw;
+    margin-top: 5vw;
+}
+
+#the-brochure {
+    margin-top: 9vw;
+    margin-left: 2%;
+    color: white;
+    font-family: Avenir, sans-serif;
+    font-size: 30px;
+    font-weight: normal;
+
+}
+
+
+@media (min-width: 1734px) {
+    .screenshots {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        flex-wrap: wrap;
+        right: 2vw;
+        align-content: flex-end;
+        max-width: 45vw;
+        margin-top: 14%;
+        justify-self: right;
+        margin-bottom: 50px;
+        justify-content: space-evenly;
+    }
+
+    .brochure {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        align-self: center;
+        height: auto;
+        margin-top: 4%;
+    }
+
+    #the-brochure {
+        margin-top: 18%;
+        margin-left: 2%;
+        color: white;
+        font-family: Avenir, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+
+    }
+
+
+}
+
+@media (min-width: 2064px) {
+    .brochure {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        align-self: center;
+        height: auto;
+        margin-top: 4%;
+    }
+
+    #the-brochure {
+        margin-top: 28%;
+        margin-left: 2%;
+        color: white;
+        font-family: Avenir, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+
+    }
+}
+
+@media (min-width: 2064px) {
+
+    #the-brochure {
+        margin-top: 38%;
+        margin-left: 2%;
+        color: white;
+        font-family: Avenir, sans-serif;
+        font-size: 30px;
+        font-weight: normal;
+
+    }
+}
+
+@media (max-width: 1470px) {
+    .brochure {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: absolute;
+        align-self: center;
+        height: auto;
+        background-color: #ffffff;
+    }
+
+    #3dbrochyr {
+        max-width: 20%;
+        margin-bottom: 10vw;
+    }
+
+    #brochyr {
+        max-width: 60%;
+        margin-bottom: 10vw;
+    }
+
+}
+
 
 @media (max-width: 1036px) {
     body {
-        background: #891761;
-        background-size: cover;
+        background: linear-gradient(0deg, rgba(137,23,97,1) 0%, rgba(172,82,141,1) 100%);
         background-repeat: no-repeat;
         height: 2000px;
     }
@@ -126,7 +242,7 @@ main {
         background-color: white;
         border-bottom-left-radius: 30px;
         border-top-left-radius: 30px;
-        margin-right: -30px;
+
         padding: 2vw;
     }
 
@@ -137,10 +253,10 @@ main {
         justify-content: space-evenly;
     }
 
-    .logo-container {
+    .logo-text-container {
         display: flex;
         flex-direction: column;
-        position: absolute;
+        position: relative;
         left: 2vw;
         align-content: flex-start;
         max-width: 45vw;
@@ -150,4 +266,13 @@ main {
 
     }
 
+    .all-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        background: linear-gradient(0deg, rgba(137,23,97,1) 0%, rgba(172,82,141,1) 100%);
+    }
+
 }
+

@@ -1,29 +1,128 @@
 <!DOCTYPE html>
-<html>
+<html xmlns="http://www.w3.org/1999/html">
 <head>
-  <link rel="stylesheet" href="common.css">
-  <link rel="stylesheet" href="hikey.css">
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="hikey.css">
 </head>
 <body>
 
-  <header>
+<header>
     <nav>
-        <a href="home.html">Home</a>
-        <a href="empathy.html"><b>Empathy</b></a>
-        <a href="boom.html">Boom</a>
-        <a href="hikey.html">Hikey</a>
-        <hr>
+
+        <div class="flex-container-nav container">
+
+            <div class="flex-item"><a href="home.html">Home</a></div>
+            <a href="#about">About me</a>
+            <div class="dropdown">
+                <button class="dropbtn"><a href="#projects">Projects</a></button>
+                <div class="dropdown-content">
+                    <a href="empathy.html"><img src="empathy_thumbnail.jpg" alt="Empathy"
+                                                width="300" style="border: #252525 solid 1px"> </a>
+                    <a href="boom.html"><img src="boom_thumbnail.jpg" alt="Boom"
+                                             width="300" style="border: #252525 solid 1px"> </a>
+                    <a href="hikey.html"><img src="hikey_thumbnail.jpg" alt="Hikey"
+                                              width="300" style="border: #252525 solid 3px"> </a>
+                    <a href="petair.html"> <img src="petair_thumbnail.jpg" alt="PetAir"
+                                                width="300" style="border: #252525 solid 1px"></a></div>
+            </div>
+            <a href="#contact">Contact</a>
+        </div>
+
+
+        </div>
     </nav>
 
+</header>
 
-  <main>
 
-  <img src="hikeyryggsack copy2.png" alt="Hikey" style="width:500px;height:600px;">
+<main>
 
-  <h1>Hikey</h1>
+    <div class="hikey-hero-container">
 
-  <p>hello world</p>
-  </main>
+        <div class="hero-rubrik-container">
+            <h3 class="hikey-subrubrik" style="margin-bottom: -130px; margin-top: 10vh" >Say hi to</h3>
+            <h1 class="hikey-hero-rubrik">HIKEY</h1>
+            <h3 class="hikey-subrubrik" style="margin-top: -180px; margin-bottom: 10vh">-your new hiking companion!</h3>
+
+
+
+        </div>
+
+        <img id="hikey-hero" src="hikeyryggsack copy2.png" alt="Hikey">
+
+        <div class="hikey-text-container-up">
+            <p style="color: #838870"> <i> How can we design a social wearable that facilitates hiking
+                for students that want to reduce their stress levels?</i> </p><br>
+
+
+                <p>The answer is a robot companion called Hikey. Hikey is meant to first and foremost be a helpful
+                companion that enriches facilitates the users experience while hiking alone. Hikey can assist with navigation
+                by keeping track of the trail, finding water sources and camp sites. Hikey can also tell the user about
+                edible berries and mushrooms, about birds and other things you may encounter in nature.
+                This companion can also provide information the user asks for, such as weather, altitude and time.</p>
+
+
+        </div>
+
+    </div>
+
+
+    </div>
+
+    <div class="below-container1">
+
+        <div class="hikey-text-container">
+
+            <p> In order for Hikey to notice what's around the hiker in a wide field of view, it needs to have a movable head.
+                For this, we used our existing clay model and first made a gif to showcase this functionality. We then also
+                made the head movable in real time by using some steel wire that passed through the model which the head could
+                then rotate around.
+            </p>
+
+            <p><br>
+                <br>
+                Hikey can make an array of facial expressions to interact with the user. It can convey emotions such as
+                happiness, sadness and anger. It also has an expression for when it is sleeping/powered off as well as
+                a neutral expression. The reason we chose to do this is to make Hikey as expressive, compassionate and
+                alive as possible.
+            </p>
+
+        </div>
+
+        <img id="hikey-hand" src="hikeyhand2.png" alt="Hikey scale sketch">
+
+    </div>
+
+    <img src="hikey-gren.svg" alt="Hikey on a treebranch">
+
+    <div class="hikey-text-container">
+
+        <h2>About the project</h2>
+        <p> This project was made in group over a span of eight weeks. It consisted of user and literature studies to learn about the
+            subject, a design and evaluation phase were several iterations of the concept was made, and lastly a prototyping face.
+            The final prototype we produced was a 3D model made in Blender of which you can see renderings of on this page. The
+            model was then 3D printed and inserted with an LED programmed with an Arduino to display the different colors Hikey can glow in.
+            The demo video below shows how Hikey moves and interacts with the user.
+        </p>
+
+        </p>
+
+    </div>
+
+    <div class="hikey-vid-container">
+        <video id="hikey-vid" controls>
+            <source src="Hikey.mp4" type="video/mp4">
+            <!--<source src="movie.ogg" type="video/ogg">-->
+            Your browser does not support the video tag.
+        </video>
+
+        <img style="max-height: 400px; align-self: center; margin-right: 8%" src="hikeyhappy.png" alt="Happy Hikey!">
+
+    </div>
+
+
+</main>
 
 
 </body>

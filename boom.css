@@ -2,7 +2,8 @@ body {
   background-image: url("boom_color_swirl2.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding-top: 60px;
+  padding-top: 60px;background-position: 0vh 6vw;
+
 }
 
 #boom {
@@ -10,7 +11,7 @@ body {
   /*font-family: 'Bebas Neue', regular;*/
   font-family: "DIN Condensed", regular, sans-serif;
   color: #383838;
-  margin-top: 1vw;
+  margin-top: 3vw;
 
 }
 
@@ -18,16 +19,14 @@ body {
   font-size: 25px;
   font-family: "din alternate", sans-serif;
   color: #383838;
-  margin-top: 3vw;
+  margin-top: 5vw;
   margin-bottom:0px;
   font-weight: lighter;
 
 }
 
 main {
-  max-width: 1000px;
   margin: 20px auto;
-  padding: 30px;
   background: transparent;
 }
 
@@ -48,34 +47,241 @@ main {
   box-shadow: 1px 1px 5px dimgrey;
 }
 
-.boom-text {
-  font-size: 20px;
-  font-family: "din alternate", sans-serif;
-  color: #383838;
-  margin-top: 3vw;
-  margin-bottom:0px;
-  font-weight: lighter;
-
-}
 
 .upp-container {
   display: flex;
   flex-direction: row;
+  position: relative;
   width: 100%;
+  margin-top: -1vw;
+}
+
+.about-boom {
+  background-color: rgba(255,255,255,0.6);
+  border-radius: 30px;
+  padding: 20px;
+  margin-right: 3vw;
+  text-align: left;
+  font-size: 18px;
+  font-family: "din alternate", sans-serif;
+  color: #383838;
+  margin-top: 3vw;
+  margin-bottom: 0vw;
+  font-weight: lighter;
+  max-width: 50%;
+}
+
+.empty-left {
+  width: 50%;
+}
+
+.boom-text {
+  text-align: left;
+  font-size: 18px;
+  font-family: "din alternate", sans-serif;
+  color: #383838;
+  margin-top: 3vw;
+  margin-bottom: 0vw;
+  font-weight: lighter;
+  max-width: 50%;
+
+}
+
+.boom-text2 {
+  text-align: left;
+  font-size: 18px;
+  font-family: "din alternate", sans-serif;
+  color: #383838;
+  margin-top: 3vw;
+  font-weight: lighter;
+  margin-bottom: 1vw;
+
+}
+
+#boom-creative {
+  max-width: 40%;
+
+}
+
+.creative-img{
+  display: flex;
+  max-width: 100%;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 15%;
+}
+
+#boom-vid {
+  height: auto;
+  box-shadow: 1px 1px 3px Dimgrey;
+  max-width: 1000px;
+}
+
+.demo-vid {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  max-width: 100%;
+  margin-top: 9vw;
+  margin-bottom: 20vw;
 
 
 }
 
-.e
+@media (min-width: 1968px) {
 
-.boom-text-upp-right {
-  display: flex;
-  text-align: right;
-  font-size: 20px;
-  font-family: "din alternate", sans-serif;
-  color: #383838;
-  margin-top: 3vw;
-  margin-bottom:0px;
-  font-weight: lighter;
+  .demo-vid {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    margin-top: 14vw;
+    margin-bottom: 20vw;
+  }
+
+  .creative-img{
+    display: flex;
+    max-width: 100%;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 24%;
+  }
+
+}
+
+@media (max-width: 1590px) {
+  .boom-text {
+    text-align: left;
+    font-size: 18px;
+    font-family: "din alternate", sans-serif;
+    color: #383838;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+    font-weight: lighter;
+    max-width: 50%;
+    margin-right: -10%;
+
+  }
+
+  .upp-container {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    width: 100%;
+    margin-top: -1vw;
+    justify-content: space-between;
+  }
+
+  #boom-vid {
+    height: auto;
+    box-shadow: 1px 1px 3px Dimgrey;
+    max-width: 50%;
+  }
+
+
+}
+
+@media (max-width: 1500px) {
+  .boom-text {
+    text-align: left;
+    font-size: 18px;
+    font-family: "din alternate", sans-serif;
+    color: #383838;
+    margin-top: -2%;
+    margin-bottom: 0vw;
+    font-weight: lighter;
+    max-width: 50%;
+    margin-right: -10%;
+
+  }
+
+}
+
+@media (max-width: 1280px) {
+  body {
+    background-image: url("boomstolpe.svg");
+    background-size: auto;
+    background-repeat: no-repeat;
+    padding-top: 40px;
+    background-position: 0vh 4vw;
+    }
+
+  .boom-hero-container{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    position: relative;
+    top: 8vw;
+    left: 10%;
+  }
+  .upp-container {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 100%;
+    margin-top: 1vw;
+  }
+
+  .boom-text {
+    text-align: left;
+    font-size: 18px;
+    font-family: "din alternate", sans-serif;
+    color: #383838;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+    font-weight: lighter;
+    max-width: 100%;
+    margin-left: 10%;
+  }
+
+  .creative-img{
+    display: flex;
+    max-width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 2vw;
+    margin-left: 10%;
+  }
+
+  .about-boom {
+    background-color: rgba(255,255,255,0.6);
+    border-radius: 30px;
+    padding: 20px;
+    margin-right: 3vw;
+    text-align: left;
+    font-size: 18px;
+    font-family: "din alternate", sans-serif;
+    color: #383838;
+    margin-top: 3vw;
+    margin-bottom: 0vw;
+    font-weight: lighter;
+    max-width: 70%;
+    margin-left: 0%;
+
+  }
+
+  .boom-text2 {
+    text-align: left;
+    font-size: 18px;
+    font-family: "din alternate", sans-serif;
+    color: #383838;
+    margin-top: 1vw;
+    font-weight: lighter;
+    margin-bottom: 1vw;
+    margin-left: 10%;
+    margin-right: 10%;
+
+  }
+
+  #boom-creative {
+    max-width: 80%;
+
+  }
+
+  .empty-left {
+    max-width: 80%;
+  }
 
 }

@@ -4,7 +4,6 @@
  */
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Cormorant+Garamond:wght@500&family=Noto+Serif&family=Nunito:wght@400;700&display=swap');
 
-
 html {
     box-sizing: border-box;
 }
@@ -22,7 +21,7 @@ body {
     justify-content: space-evenly;
     flex-wrap: nowrap;
     align-items: flex-start;
-    padding-top: 7px;
+    padding-top: 8px;
     padding-left: 110px;
     padding-right: 110px;
 

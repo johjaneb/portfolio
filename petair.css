@@ -1,0 +1,514 @@
+:root {
+    --margin-top: 4vw;
+}
+
+body {
+    background-image: url("petair bakgrund.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+
+.pet-rad1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+
+.pet-rad1-column1 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: left;
+    align-items: center;
+    margin-left: 10%;
+
+}
+
+.pet-rad1-column2 {
+    display: flex;
+    flex-direction: column;
+    max-width: 50%;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#pet-hero-text {
+    font-family: "Times New Roman", serif;
+    font-size: 80px;
+    font-weight: normal;
+    color: #656565;
+    text-align: left;
+}
+
+#pet-hero-sub{
+    font-family: "Times New Roman", serif;
+    font-size: 30px;
+    font-weight: normal;
+    color: #656565;
+    text-align: left;
+    margin-top: -50px;
+}
+
+#unfolded-color{
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+}
+
+#folded-color{
+    max-width: 80%;
+    height: auto;
+    margin-top: 310px;
+    align-self: center;
+}
+
+#bed {
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+    margin-top: 12vw;
+    margin-left: -70px;
+
+}
+
+.textbox1{
+    background-color: white;
+    max-width: 70%;
+    align-self: center;
+    margin-top: 4vw;
+    margin-right: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #656565;
+
+}
+
+.textbox2{
+    background-color: white;
+    max-width: 70%;
+    align-self: center;
+    margin-top: 10vw;
+    margin-left: -120px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #656565;
+
+}
+
+.textbox3{
+    background-color: white;
+    max-width: 70%;
+    align-self: center;
+    margin-top: 14vw;
+    margin-right: 70px;
+    padding: 10px;
+    border-radius: 20px;
+    font-family: "Times New Roman", serif;
+    font-weight: normal;
+    font-size: 18px;
+    color: #656565;
+
+}
+
+#uppfalld-bur{
+    max-width: 80%;
+    height: auto;
+    margin-top:250px;
+    align-self: center;
+    margin-right: 100px;
+}
+
+#nedfalld-sketch{
+    max-width: 80%;
+    height: auto;
+    align-self: center;
+    margin-top:6vw;
+    margin-left: -70px;
+
+}
+
+#uppfalld-bur-beskrivning {
+    max-width: 80%;
+    height: auto;
+    margin-top: 90px;
+    align-self: center;
+    margin-bottom: 10vw;
+}
+
+@media (min-width: 1762px) {
+
+    #nedfalld-sketch{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top:6vw;
+        margin-left: -70px;
+
+    }
+
+    .textbox3{
+        background-color: white;
+        max-width: 70%;
+        align-self: center;
+        margin-top: 20vw;
+        margin-right: 70px;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+}
+
+@media (max-width: 1560px) {
+
+    #nedfalld-sketch{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top:4vw;
+        margin-left: -70px;
+
+    }
+
+    .textbox3{
+        background-color: white;
+        max-width: 70%;
+        align-self: center;
+        margin-top: 8vw;
+        margin-right: 70px;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+}
+
+@media (max-width: 1478px) {
+
+    #nedfalld-sketch{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top:4vw;
+        margin-left: -70px;
+
+    }
+
+    .textbox3{
+        background-color: white;
+        max-width: 70%;
+        align-self: center;
+        margin-top: 4vw;
+        margin-right: 70px;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+}
+
+@media (max-width: 1410px) {
+    body {
+        background: #E6E6E6;
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+    .pet-rad1{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+
+    .pet-rad1-column1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        text-align: left;
+        align-items: center;
+        margin-left: 10%;
+        flex-wrap: wrap;
+    }
+
+    .pet-rad1-column2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+        align-items: center;
+        margin-right: 10%;
+        flex-wrap: wrap;
+    }
+
+    #pet-hero-sub{
+        font-family: "Times New Roman", serif;
+        font-size: 30px;
+        font-weight: normal;
+        color: #656565;
+        text-align: left;
+        margin-top: var(--margin-top);
+    }
+
+    #unfolded-color{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+    }
+
+    #folded-color{
+        max-width: 80%;
+        height: auto;
+        margin-top: var(--margin-top);
+        align-self: center;
+    }
+
+    #bed {
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top: var(--margin-top);
+
+    }
+
+    .textbox1{
+        background-color: white;
+        max-width: 80%;
+        align-self: center;
+        margin-top: var(--margin-top);
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+    .textbox2{
+        background-color: white;
+        max-width: 80%;
+        align-self: center;
+        margin-top: var(--margin-top);
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+    .textbox3{
+        background-color: white;
+        max-width: 80%;
+        align-self: center;
+        margin-top: var(--margin-top);
+        padding: 20px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+    #uppfalld-bur{
+        max-width: 80%;
+        height: auto;
+        margin-top: var(--margin-top);
+        align-self: center;
+    }
+
+    #nedfalld-sketch{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top: var(--margin-top);
+
+    }
+
+    #uppfalld-bur-beskrivning {
+        max-width: 80%;
+        height: auto;
+        margin-top: var(--margin-top);
+        align-self: center;
+    }
+
+}
+
+
+@media (min-width: 2002px) {
+
+    body {
+        background-image: url("petair bakgrund.svg");
+        background-size: 2002px;
+        background-repeat: no-repeat;
+        background-color: #E6E6E6;
+        background-position: 0vh 0vw;
+        background-position-x: 8vw;
+        padding-top: 60px;
+    }
+
+    main {
+        margin: auto;
+        max-width: 1900px;
+    }
+    .pet-rad1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+
+    }
+
+    .pet-rad1-column1 {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        text-align: left;
+        align-items: center;
+        margin-left: 10%;
+
+    }
+
+    .pet-rad1-column2 {
+        display: flex;
+        flex-direction: column;
+        max-width: 50%;
+        align-items: center;
+        margin-right: 10%;
+    }
+
+    #pet-hero-text {
+        font-family: "Times New Roman", serif;
+        font-size: 80px;
+        font-weight: normal;
+        color: #656565;
+        text-align: left;
+    }
+
+    #pet-hero-sub{
+        font-family: "Times New Roman", serif;
+        font-size: 30px;
+        font-weight: normal;
+        color: #656565;
+        text-align: left;
+        margin-top: -50px;
+    }
+
+    #unfolded-color{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+    }
+
+    #folded-color{
+        max-width: 80%;
+        height: auto;
+        margin-top: 310px;
+        align-self: center;
+    }
+
+    #bed {
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top: 12vw;
+        margin-left: -70px;
+
+    }
+
+    .textbox1{
+        background-color: white;
+        max-width: 70%;
+        align-self: center;
+        margin-top: 4vw;
+        margin-right: 70px;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+    .textbox2{
+        background-color: white;
+        max-width: 70%;
+        align-self: center;
+        margin-top: 10vw;
+        margin-left: -120px;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+    .textbox3{
+        background-color: white;
+        max-width: 70%;
+        align-self: center;
+        margin-top: 14vw;
+        margin-right: -10vw;
+        padding: 10px;
+        border-radius: 20px;
+        font-family: "Times New Roman", serif;
+        font-weight: normal;
+        font-size: 18px;
+        color: #656565;
+
+    }
+
+    #uppfalld-bur{
+        max-width: 80%;
+        height: auto;
+        margin-top:20vw;
+        align-self: center;
+        margin-right: 100px;
+    }
+
+    #nedfalld-sketch{
+        max-width: 80%;
+        height: auto;
+        align-self: center;
+        margin-top:6vw;
+        margin-left: -70px;
+
+    }
+
+    #uppfalld-bur-beskrivning {
+        max-width: 80%;
+        height: auto;
+        margin-top: 90px;
+        align-self: center;
+        margin-right: -10vw;
+    }
+
+
+}
