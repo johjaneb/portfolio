@@ -9,7 +9,7 @@ body {
 #boom {
   font-size: 160px;
   /*font-family: 'Bebas Neue', regular;*/
-  font-family: "DIN Condensed", regular, sans-serif;
+  font-family: "DIN Condensed", "Bebas Neue", sans-serif;
   color: #383838;
   margin-top: 3vw;
 

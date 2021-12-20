@@ -115,6 +115,11 @@ nav {
     z-index: 100;
 }
 
+nav a {
+    white-space: nowrap;
+    margin: 0 0.5em;
+}
+
 a:hover {
     color: #85a182;
     text-decoration: underline;

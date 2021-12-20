@@ -102,7 +102,7 @@ main {
 }
 
 #blankbox1 {
-  height: 130px;
+  height: 100px;
   background-color: transparent;
   width: auto;
 }
@@ -116,6 +116,9 @@ main {
   font-size: 22px;
   color: #252525;
   margin-bottom: 2%;
+  margin-top: -40px;
+  padding-top: 70px;
+
 }
 
 
@@ -240,6 +243,7 @@ main {
 
 .skill {
   display: flex;
+  position: relative;
   flex-direction: column;
   /*flex-basis: 100%;*/
   flex: 1;
@@ -255,26 +259,27 @@ main {
   background-color: #ffffff;
   text-align: center;
   border-radius: 50%;
-  box-shadow: 1px 1px 3px Dimgrey;;
+  box-shadow: 1px 1px 3px Dimgrey;
 }
 
-#adobe-skill.hover .overlay {
+.skill-overlay:hover {
   opacity: 1;
-  background-color: #d0acff;
 }
 
 .skill-overlay {
-  position: relative;
+  position: absolute;
   bottom: auto;
   top: 0px;
-  left: -25px;
-  right: auto;
+  left: 0px;
+  right: 0;
+  bottom: 0;
   height: 100%;
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: rgba(59, 59, 59, 0.54);
+  background-color: rgb(255, 255, 255);
   background-size: cover;
+  color: #3b3b3b;
   z-index: 1;
   border-radius: 50%;
 }
@@ -528,7 +533,7 @@ label {
 
 
 #footer-image {
-  width: 99vw;
+  width: 100vw;
   height: auto;
   margin-bottom: -10px;
   margin-top: -300px;
@@ -624,7 +629,6 @@ label {
     /*justify-content: center;*/
     background-color: #eee3d2;
     /*border: 5px solid #ffcb69;*/
-    max-width: auto;
     max-height: 450px;
     overflow-y: scroll;
     padding-top: 150px;
