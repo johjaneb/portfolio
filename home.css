@@ -134,8 +134,8 @@ main {
   background-image: url("Vectorabout.png");
   background-size: 200px;
   background-repeat: no-repeat;
-  background-position: bottom left;
-  margin-bottom: -40px;
+  background-position-x: left;
+  background-position-y: -20px;
 }
 
 /*EDUCATION&EXPERIENCE*/
@@ -326,6 +326,11 @@ main {
 
 #projects {
   margin-top: 30px;
+  background-image: url("Vectorabout.png");
+  background-size: 200px;
+  background-repeat: no-repeat;
+  background-position-x: left;
+  background-position-y: -20px;
 }
 
 .flex-container-home-projects {
