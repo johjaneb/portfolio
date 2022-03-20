@@ -184,7 +184,7 @@ main {
   justify-content: center;
   /*justify-content: center;*/
   background-image: url("Vector3.svg");
-  background-size: auto;
+  background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
   /*border: 5px solid #ffcb69;*/
