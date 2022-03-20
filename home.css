@@ -132,7 +132,7 @@ main {
 
 #about {
   background-image: url("Vectorabout.png");
-  background-size: 100px;
+  background-size: 200px;
   background-repeat: no-repeat;
   background-position: bottom left;
 }
@@ -183,8 +183,9 @@ main {
   justify-content: center;
   /*justify-content: center;*/
   background-image: url("Vector3.svg");
-  background-size: cover;
+  background-size: auto;
   background-repeat: no-repeat;
+  background-position: center;
   /*border: 5px solid #ffcb69;*/
   border-radius: 40px;
   max-width: 45%;
