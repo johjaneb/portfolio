@@ -135,6 +135,7 @@ main {
   background-size: 200px;
   background-repeat: no-repeat;
   background-position: bottom left;
+  margin-bottom: -40px;
 }
 
 /*EDUCATION&EXPERIENCE*/
