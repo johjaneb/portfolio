@@ -176,6 +176,7 @@ main {
   justify-content: center;
   /*justify-content: center;*/
   background-image: url("Vector.svg");
+  background-size: cover;
   /*border: 5px solid #ffcb69;*/
   border-radius: 40px;
   max-width: 45%;
