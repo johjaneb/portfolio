@@ -132,8 +132,9 @@ main {
 
 #about {
   background-image: url("Vectorabout.png");
-  background-size: 30px;
+  background-size: 100px;
   background-repeat: no-repeat;
+  background-position: bottom left;
 }
 
 /*EDUCATION&EXPERIENCE*/
@@ -183,10 +184,11 @@ main {
   /*justify-content: center;*/
   background-image: url("Vector3.svg");
   background-size: cover;
+  background-repeat: no-repeat;
   /*border: 5px solid #ffcb69;*/
   border-radius: 40px;
   max-width: 45%;
-  padding: 10px;
+  padding: 2px;
   /*box-shadow: 1px 1px 5px Dimgrey;*/
   max-height: 400px;
 }
