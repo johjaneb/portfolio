@@ -34,7 +34,7 @@ body {
     color: white;
     padding-bottom: 16px;
     font-size: 28px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Nunito', san-serif;
     font-weight: normal;
     border: none;
 }
@@ -110,7 +110,7 @@ nav {
     height: 60px;
     box-shadow: 0 1px 5px #838383;
     font-size: 28px;
-    font-family: 'Cormorant Garamond', serif;
+    font-family: 'Nunito', san-serif;
     font-weight: normal;
     z-index: 100;
 }
