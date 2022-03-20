@@ -131,7 +131,7 @@ main {
 }
 
 #about {
-  background-image: url("Vectorabout.png");
+  background-image: url("Vectorabout.svg");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position-x: left;
@@ -326,7 +326,7 @@ main {
 
 #projects {
   margin-top: 30px;
-  background-image: url("Vectorabout.png");
+  background-image: url("Vectorabout.svg");
   background-size: 200px;
   background-repeat: no-repeat;
   background-position-x: left;
