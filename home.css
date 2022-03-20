@@ -211,6 +211,7 @@ main {
   color: #252525;
   font-size: 26px;
   margin-top: -80px;
+  margin-bottom: 30px;
 }
 
 #chalmerslogo {
@@ -232,8 +233,6 @@ main {
   color: #252525;
   font-size: 26px;
 }
-
-
 
 #skills {
   text-align: left;
