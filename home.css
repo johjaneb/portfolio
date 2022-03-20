@@ -130,6 +130,11 @@ main {
 
 }
 
+#about {
+  background-image: url("Vectorabout.png");
+  background-size: auto;
+}
+
 /*EDUCATION&EXPERIENCE*/
 
 /*.eeswrapper {
