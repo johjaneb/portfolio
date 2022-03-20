@@ -133,6 +133,7 @@ main {
 #about {
   background-image: url("Vectorabout.png");
   background-size: contain;
+  background-repeat: no-repeat;
 }
 
 /*EDUCATION&EXPERIENCE*/
