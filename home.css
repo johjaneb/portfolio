@@ -210,11 +210,11 @@ main {
   align-self: flex-start;
   color: #252525;
   font-size: 26px;
-  margin-top: -20px;
+  margin-top: -40px;
 }
 
 #chalmerslogo {
-  margin-top: 50px;
+  margin-top: 60px;
   width: 150px;
   align-self: center;
 
@@ -223,6 +223,7 @@ main {
 #education-text {
   text-align: center;
   color: #252525;
+  margin-top: 60px;
 
 }
 
