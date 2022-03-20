@@ -2,7 +2,7 @@
  common.css innehåller stilar som
  ska finnas på ALLA sidor, tex header/header/footer etc
  */
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500&family=Noto+Serif&family=Nunito:wght@400;700&family=Prata&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Cormorant+Garamond:wght@500&family=Noto+Serif&family=Nunito:wght@400;700&family=Prata&display=swap');
 
 html {
     box-sizing: border-box;
