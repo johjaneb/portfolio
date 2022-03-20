@@ -132,7 +132,7 @@ main {
 
 #about {
   background-image: url("Vectorabout.png");
-  background-size: contain;
+  background-size: 30px;
   background-repeat: no-repeat;
 }
 
