@@ -645,7 +645,7 @@ label {
     align-content: center;
     justify-content: center;
     /*justify-content: center;*/
-    background-image: #eee3d2;
+    background-color: transparent;
     /*border: 5px solid #ffcb69;*/
     max-height: 450px;
     overflow-y: scroll;
