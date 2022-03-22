@@ -434,6 +434,21 @@ main {
   }
 }
 
+.contact-info {
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: row;
+  text-align: center;
+  font-weight: normal;
+  font-family: "Nunito", serif;
+  font-size: 22px;
+  color: #252525;
+  margin-bottom: 2%;
+  margin-top: -40px;
+  padding-top: 70px;
+
+}
+
 
 .flex-item-project:hover .overlay {
   opacity: 1;
@@ -482,6 +497,7 @@ main {
 
 }
 
+
 .column-contact-form {
   display: flex;
   flex-direction: column;
@@ -521,7 +537,7 @@ input[type=text], select, textarea {
 
 }
 
-/*margin-bottom: 40px;               Style the submit button with a specific background color etc */
+ /*margin-bottom: 40px;               Style the submit button with a specific background color etc */
 input[type=submit] {
   background-color: #94bd8f;
   color: #ffffff;
@@ -565,6 +581,23 @@ label {
 
 }*/
 
+@media (max-width: 940px) {
+  .contact-info {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+    text-align: center;
+    font-weight: normal;
+    font-family: "Nunito", serif;
+    font-size: 22px;
+    color: #252525;
+    margin-bottom: 2%;
+    margin-top: -40px;
+    padding-top: 70px;
+
+  }
+
+}
 
 @media (max-width: 782px) {
   .row {
