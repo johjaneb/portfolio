@@ -628,7 +628,7 @@ label {
     align-content: center;
     justify-content: center;
     /*justify-content: center;*/
-    background-color: #eee3d2;
+    background-color: transparent;
     /*border: 5px solid #ffcb69;*/
     border-radius: 40px;
     max-width: 80%;
