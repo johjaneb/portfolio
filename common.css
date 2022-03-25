@@ -58,6 +58,8 @@ body {
     z-index: 1;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    border-width: 10px;
+    border-color: white;
 }
 
 /* Links inside the dropdown */
