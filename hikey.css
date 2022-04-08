@@ -82,11 +82,11 @@ body {
 #hikey-vid {
   height: auto;
   box-shadow: 1px 1px 3px Dimgrey;
-  max-width: 60%;
+  max-width: 50%;
   margin-top: 5vw;
   margin-bottom: 5vw;
   alignment: center;
-  margin-left: 8%;
+  margin-left: 0;
 }
 
 .hikey-vid-container{
