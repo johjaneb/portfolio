@@ -6,9 +6,9 @@ body {
 }
 
 .finding-home-vid {
-    /*display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap; */
+    display: flex;
+    contain: content;
+    flex-wrap: nowrap;
     max-width: 90vw;
     align-content: center;
     margin-top: 60px;
