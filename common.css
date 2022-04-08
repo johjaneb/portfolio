@@ -14,10 +14,6 @@ body {
     margin: 0;
 }
 
-.flex-item {
-    color: #3b3b3b;
-}
-
 .flex-container-nav {
     display: flex;
     position: sticky;
