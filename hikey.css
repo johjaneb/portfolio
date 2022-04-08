@@ -34,7 +34,7 @@ body {
 }
 
 .hikey-subrubrik {
-  font-family: "Avenir Next Condensed", regular, sans-serif;
+  font-family: "Avenir Next Condensed", "PT Sans Narrow", regular, sans-serif;
   color: #838870;
   font-size: 26px;
   font-weight: normal;
