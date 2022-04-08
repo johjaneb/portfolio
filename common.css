@@ -126,9 +126,7 @@ nav a {
 
 a:hover {
     color: #679bbb;
-    text-decoration: underline;
-    text-decoration-color: #679bbb;
-    /*font-weight: bold;*/
+    font-weight: bold;
 }
 
 a:link {
