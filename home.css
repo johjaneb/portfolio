@@ -221,7 +221,7 @@ main {
   align-self: flex-start;
   color: #252525;
   font-size: 26px;
-  margin-top: 0px;
+  margin-top: 10px;
   margin-bottom: 30px;
 }
 
@@ -241,7 +241,7 @@ main {
 
 #cv {
   background-color: #252525;
-  text-decoration: #ffffff;
+  color: #ffffff;
   font-size: 18px;
   font-family: "Nunito", sans-serif;
   border-radius: 30px;
