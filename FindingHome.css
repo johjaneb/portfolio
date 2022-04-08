@@ -9,7 +9,7 @@ body {
     /*display: flex;
     flex-direction: row;
     flex-wrap: nowrap; */
-    max-width: 100%;
+    max-width: 90vw;
     align-content: center;
     margin-top: 60px;
 }
