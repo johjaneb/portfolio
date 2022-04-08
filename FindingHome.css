@@ -13,3 +13,13 @@ body {
     height: auto;
     align-content: center;
 }
+
+.finding-home-header {
+    display:flex;
+    flex-direction: column;
+    max-width: 50%;
+    text-align: center;
+    font-family: "Avenir", "Nunito", regular, sans-serif;
+    color: #ffffff;
+    font-size: 40px;
+}
