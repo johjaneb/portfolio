@@ -1,4 +1,11 @@
-#Home-vid {
+body {
+    background-color: #151a28;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+.finding-home-vid {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
