@@ -1,0 +1,8 @@
+#Home-vid {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 100vw;
+    height: auto;
+    align-content: center;
+}
