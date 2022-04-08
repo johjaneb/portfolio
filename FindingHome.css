@@ -7,7 +7,7 @@ body {
 
 .finding-home-vid {
     display: flex;
-    contain: content;
+
     flex-wrap: nowrap;
     max-width: 100vw;
     align-content: center;
