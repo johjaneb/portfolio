@@ -245,7 +245,11 @@ main {
   font-size: 18px;
   border-radius: 30px;
   box-shadow: dimgray;
-  margin-top: 40px;
+  margin-top: 80px;
+  padding: 10px;
+  max-width: 40px;
+
+
 }
 
 #experience {
