@@ -34,7 +34,7 @@ body {
 }
 
 .hikey-subrubrik {
-  font-family: "Avenir Next Condensed", "Pathway Gothic One", "PT Sans Narrow", regular, sans-serif;
+  font-family: "Avenir Next Condensed", "Pathway Gothic One", "PT Sans Narrow", sans-serif;
   color: #838870;
   font-size: 26px;
   font-weight: normal;
@@ -67,7 +67,7 @@ body {
   text-align: left;
   margin-left: 8%;
   margin-top: 10vh;
-  font-family: "Avenir", regular, sans-serif;
+  font-family: "Avenir", "Nunito", regular, sans-serif;
   color: #575A4A;
   font-size: 18px;
   font-weight: lighter;
@@ -165,7 +165,7 @@ body {
   }
 
   .hikey-hero-rubrik {
-    font-family: "DIN Condensed", regular, sans-serif;
+    font-family: "DIN Condensed", "Nunito", regular, sans-serif;
     color: #9A9F83;
     font-size: 170px;
     font-weight: normal;
@@ -174,7 +174,7 @@ body {
 
 
   .hikey-subrubrik {
-    font-family: "Avenir Next Condensed", regular, sans-serif;
+    font-family: "Avenir Next Condensed", "Pathway Gothic One", regular, sans-serif;
     color: #838870;
     font-size: 26px;
     font-weight: normal;
@@ -187,7 +187,7 @@ body {
     text-align: left;
     margin-left: 8%;
     margin-right: 8%;
-    font-family: "Avenir", regular, sans-serif;
+    font-family: "Avenir", "Nunito", regular, sans-serif;
     color: #575A4A;
     font-size: 18px;
     font-weight: lighter;
@@ -224,7 +224,7 @@ body {
     text-align: left;
     margin-left: 8%;
     margin-top: 2vh;
-    font-family: "Avenir", regular, sans-serif;
+    font-family: "Avenir", "Nunito", regular, sans-serif;
     color: #575A4A;
     font-size: 18px;
     font-weight: lighter;

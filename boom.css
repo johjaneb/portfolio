@@ -90,7 +90,7 @@ main {
 .boom-text2 {
   text-align: left;
   font-size: 18px;
-  font-family: "din alternate", sans-serif;
+  font-family: "DIN Alternate", "Nunito", sans-serif;
   color: #383838;
   margin-top: 3vw;
   font-weight: lighter;
@@ -155,7 +155,7 @@ main {
   .boom-text {
     text-align: left;
     font-size: 18px;
-    font-family: "din alternate", sans-serif;
+    font-family: "din alternate", "Nunito", sans-serif;
     color: #383838;
     margin-top: 3vw;
     margin-bottom: 0vw;
@@ -187,7 +187,7 @@ main {
   .boom-text {
     text-align: left;
     font-size: 18px;
-    font-family: "din alternate", sans-serif;
+    font-family: "din alternate","Nunito", sans-serif;
     color: #383838;
     margin-top: -2%;
     margin-bottom: 0vw;
@@ -227,7 +227,7 @@ main {
   .boom-text {
     text-align: left;
     font-size: 18px;
-    font-family: "din alternate", sans-serif;
+    font-family: "din alternate", "Nunito", sans-serif;
     color: #383838;
     margin-top: 3vw;
     margin-bottom: 0vw;
@@ -252,7 +252,7 @@ main {
     margin-right: 3vw;
     text-align: left;
     font-size: 18px;
-    font-family: "din alternate", sans-serif;
+    font-family: "din alternate", "Nunito", sans-serif;
     color: #383838;
     margin-top: 3vw;
     margin-bottom: 0vw;
@@ -265,7 +265,7 @@ main {
   .boom-text2 {
     text-align: left;
     font-size: 18px;
-    font-family: "din alternate", sans-serif;
+    font-family: "din alternate", "Nunito", sans-serif;
     color: #383838;
     margin-top: 1vw;
     font-weight: lighter;
