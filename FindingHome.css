@@ -21,3 +21,11 @@ body {
     color: #ffffff;
     font-size: 80px;
 }
+
+.finding-home-text {
+    max-width: 100%;
+    text-align: center;
+    font-family: "Nunito", regular, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
