@@ -46,6 +46,15 @@ body {
     align-self: center;
 
   }
+
+  #footer-image {
+    width: 100vw;
+    height: auto;
+    align-self: center;
+    z-index: -5;
+    position: absolute;
+    bottom: 0;
+  }
 }
 
 @media (min-width: 1000px) {
