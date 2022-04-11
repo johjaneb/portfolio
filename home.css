@@ -409,15 +409,6 @@ main {
     margin: 30px 15px;
   }
 
-  #footer-image {
-    width: 100vw;
-    height: auto;
-    align-self: center;
-    z-index: -5;
-    position: fixed;
-    margin-top: -450px;
-    opacity: 100%;
-  }
 }
 
 .contact-info {
