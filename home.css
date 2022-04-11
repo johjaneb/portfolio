@@ -30,36 +30,6 @@ body {
   margin-bottom: 10px;
 }
 
-@media (max-width: 1070px) {
-  .flex-container-home-hero {
-    background: #CC7F7F;
-    border-bottom-right-radius: 40px;
-    border-bottom-left-radius: 40px;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-    margin-left: -30px;
-    margin-right: -30px;
-  }
-
-  #hero {
-    align-self: center;
-
-  }
-
-  #footer-image {
-    width: 100vw;
-    height: auto;
-    align-self: center;
-    z-index: -5;
-    position: fixed;
-    margin-top: -500px;
-    margin-bottom: -10px;
-  }
-}
-
-
-
 
 
 .rubrik {
@@ -408,6 +378,16 @@ main {
 
 }
 
+#footer-image {
+  width: 100vw;
+  height: auto;
+  margin-bottom: -10px;
+  margin-top: -880px;
+  align-self: center;
+  z-index: -5;
+  position: absolute;
+}
+
 @media (min-width: 2110px) {
   #blankbox1 {
     height: 14vw;
@@ -569,16 +549,6 @@ label {
   padding: 20px;
 }                        */
 
-
-#footer-image {
-  width: 100vw;
-  height: auto;
-  margin-bottom: -10px;
-  margin-top: -880px;
-  align-self: center;
-  z-index: -5;
-  position: absolute;
-}
 
 /*@media (max-width: 1060px) {
   .skill {
