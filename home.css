@@ -455,6 +455,15 @@ main {
   .flex-item-project {
     margin: 30px 15px;
   }
+
+  #footer-image {
+    width: 100vw;
+    height: auto;
+    align-self: center;
+    z-index: -5;
+    position: fixed;
+    margin-bottom: -450px;
+  }
 }
 
 .contact-info {
