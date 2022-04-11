@@ -770,7 +770,7 @@ label {
     align-self: center;
     z-index: -5;
     position: fixed;
-    margin-bottom: -450px;
+    margin-bottom: -250px;
     opacity: 0%;
   }
 
