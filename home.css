@@ -770,6 +770,7 @@ label {
 }
 
 @media (max-width: 700px) {
+
   #footer-image {
     width: 100vw;
     height: auto;
@@ -777,7 +778,7 @@ label {
     z-index: -5;
     position: fixed;
     margin-top: -250px;
-    /*opacity: 0%;*/
+    opacity: 100%;
   }
 
 }
