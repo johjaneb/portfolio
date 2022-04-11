@@ -757,20 +757,20 @@ label {
     align-self: center;
     z-index: -5;
     position: fixed;
-    margin-bottom: -350px;
+    margin-top: -350px;
   }
 
 
 }
 
-/*@media (max-width: 700px) {
+@media (max-width: 700px) {
   #footer-image {
     width: 100vw;
     height: auto;
     align-self: center;
     z-index: -5;
     position: fixed;
-    margin-bottom: -250px;
+    margin-top: -250px;
     opacity: 0%;
   }
 
