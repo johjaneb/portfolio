@@ -1,0 +1,25 @@
+body {
+    background-color: #ffffff;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 60px;
+}
+
+.finding-home-header {
+    max-width: 100%;
+    text-align: center;
+    font-family: "Abril Fatface", "Nunito", regular, sans-serif;
+    color: #fcefbd;
+    font-size: 80px;
+}
+
+.finding-home-text {
+    max-width: 80%;
+    text-align: center;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-bottom: 20vh;
+    font-family: "Nunito", regular, sans-serif;
+    color: #ffffff;
+    font-size: 16px;
+}
